@@ -1,1 +1,56 @@
 /* CSS for hovedsiden retro consoles*/
+
+
+
+/* Dropdown menu*/
+
+#nav{
+    background-color: floralwhite;
+}
+#nav_wrapper{
+    width:1024px;
+    margin:auto;
+    text-align: center;
+}
+
+#nav ul{
+    list-style-type: none;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    font-size:30px;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav ul li:hover{
+    background-color:grey;
+}
+
+#nav ul li,visited{
+    color:white;
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    color: darkgrey;
+}
+
+#nav ul li:hover ul{
+    display:block;
+}
+
+#nav ul ul{
+    display:none;
+    position:absolute;
+    background-color:black;
+    margin-left: 40px;
+    padding:inherit;
+}
+ 
+#nav ul ul li{
+    display:block;
