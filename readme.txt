@@ -1,1 +1,0 @@
-Prøv å bruk den andre til evt. testing, så er denne til hovedoppgaven.

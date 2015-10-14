@@ -2,7 +2,7 @@
 
 
 body{
-	background-color: #666699;
+	background-color: #78788C;
 }
 
 /*----------------------------------------------------------------------------------------------*/
@@ -17,6 +17,7 @@ body{
 
 #navigation{
 	margin-left: 23%;
+	border-radius: 5px;
 	
 }
 nav ul{
@@ -32,6 +33,7 @@ nav ul li {
 	float: left;
 	text-align: center;
 	list-style: none;
+	border-radius: 5px; 
 }
 nav ul li a{
 	color: white;
@@ -59,11 +61,12 @@ nav ul li:hover ul li{
 	padding: 5px;*/
 	background-color: #003399; 
 	border: 2px solid gray;
-	float: left;
+	float: right;
 	margin-top: 4%;
 	padding: 9px;
 	font-family: verdana, arial, serif;
 	font-size: 14px;
+	border-radius: 5px;
 	
 	
 }
@@ -75,16 +78,19 @@ aside a{
 
 aside a:hover{
 	color: #990000;
+	text-decoration: underline;
 }
 #user{
 	padding: 10px;
 	border: solid 1px #707070;
 	transition: box-shadow 0.3s, border 0.3s;
+	width: 75%;
 }
 #pass{
 	padding: 10px;
 	border: solid 1px #707070;
 	transition: box-shadow 0.3s, border 0.3s;
+	width: 75%;
 }
 input:focus{
 	border: solid 3px #red;
@@ -97,19 +103,32 @@ input:focus{
 	padding: 10px;
 	border: solid 1px #707070;
 	transition: box-shadow 0.3s, border 0.3s;
-	width: 191px;
+	width: 168px;
 	
+}
+
+aside ul {
+	list-style-type: none;
+	display: inline; 
+	padding-left: 3px;
+	padding-top: none; 
 }
 
 /*--------------------------------------HOVED CONTEINER---------------------------------------------------------------------------------*/
 
 #mainConteiner {
      background-color: #003399;
-	 border: 2px solid black;
+	 border: 2px solid gray;
 	 margin-left: 23%; 
 	 margin-right: 34%;
 	 margin-bottom: 10%;
 	 margin-top: 75px
+}
+
+/* ----- produktinnhold hovedside --------------*/
+
+div.produkt{
+	
 }
 
 
