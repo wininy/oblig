@@ -2,8 +2,7 @@
 
 
 body{
-	background-image: url("http://s3.postimg.org/6ungwc9hf/background_prosject.jpg");
-	background-size: 1980px 1080px;
+	background-color: #666699;
 }
 
 /*----------------------------------------------------------------------------------------------*/
@@ -101,3 +100,16 @@ input:focus{
 	width: 191px;
 	
 }
+
+/*--------------------------------------HOVED CONTEINER---------------------------------------------------------------------------------*/
+
+#mainConteiner {
+     background-color: #003399;
+	 border: 2px solid black;
+	 margin-left: 23%; 
+	 margin-right: 34%;
+	 margin-bottom: 10%;
+	 margin-top: 75px
+}
+
+
