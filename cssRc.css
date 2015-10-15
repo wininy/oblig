@@ -61,7 +61,7 @@ nav ul li:hover ul li{
 	padding: 5px;*/
 	background-color: #003399; 
 	border: 2px solid gray;
-	float: right;
+	clear: none;
 	margin-top: 4%;
 	padding: 9px;
 	font-family: verdana, arial, serif;
@@ -127,6 +127,13 @@ aside ul {
 
 /* ----- produktinnhold hovedside --------------*/
 
-div.produkt{
+.produkt{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	height: 300px; 
+	border: 1px solid gray;
+	background-color: red;
 	
 }
