@@ -137,10 +137,13 @@ input:focus{
 	width: 350px;
 	height: 350px;
     margin-top: 120px;
-	border: 1px solid gray;
-	background-color: red;
+	border: 1px solid white;
+	background-color: lightgrey;
+	border-radius: 5px;
 }
 .propic {
 	height:200px;
 	width:350px;
+	border-radius:5px;
+	border:1px solid black;
 }
