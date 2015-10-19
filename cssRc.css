@@ -3,21 +3,36 @@
 
 body{
 	background-color: #78788C;
+	font-size: 87,5%;
+	font-family:arial, serif;
+	line-height: 1,5;
+	text-align: left;
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
 }
 
 /*----------------------------------------------------------------------------------------------*/
 
-#logo{
-	text-align: center;
-}
+#logo img{
+  width: 100%;
+  height: auto;
+  margin: 2%, 0;
+ 
+ }
+
 
 
 
 /*---------------------------Dropdown menu-------navigation---------------------------------------------*/
 
 #navigation{
-	margin-left: 23%;
+	margin-left: 10%;
 	border-radius: 5px;
+	
 	
 }
 nav ul{
@@ -27,13 +42,14 @@ nav ul{
 nav ul li {
 	background-color: #003399;
 	border: 2px solid gray;
-	width: 200px;
+	width: 275px;
 	height: 50px;
 	line-height: 50px;
 	float: left;
 	text-align: center;
 	list-style: none;
-	border-radius: 5px; 
+	border-radius: 5px;
+ 
 }
 nav ul li a{
 	color: white;
@@ -59,17 +75,16 @@ nav ul li:hover ul li{
 	margin-top: 0px;
 	margin-right: 370px;
 	padding: 5px;*/
-	background-color: #003399; 
-	border: 2px solid gray;
-	clear: none;
-	margin-top: 4%;
-	padding: 9px;
+	
+	margin-top: 2%;
+	padding: 5px;
 	font-family: verdana, arial, serif;
 	font-size: 14px;
 	border-radius: 5px;
-	
-	
+	margin-right: 50%;
+
 }
+
 aside a{
 	color: white; 
 	text-decoration: none; 
@@ -103,37 +118,26 @@ input:focus{
 	padding: 10px;
 	border: solid 1px #707070;
 	transition: box-shadow 0.3s, border 0.3s;
-	width: 168px;
+	width: 125px;
+	
 	
 }
 
-aside ul {
-	list-style-type: none;
-	display: inline; 
-	padding-left: 3px;
-	padding-top: none; 
-}
 
-/*--------------------------------------HOVED CONTEINER---------------------------------------------------------------------------------*/
 
-#mainConteiner {
-     background-color: #003399;
-	 border: 2px solid gray;
-	 margin-left: 23%; 
-	 margin-right: 34%;
-	 margin-bottom: 10%;
-	 margin-top: 75px
-}
+
 
 /* ----- produktinnhold hovedside --------------*/
 
-.produkt{
-	float: left;
-	margin: 10px;
+.produkt{	
+    float: left;
+	margin: 120px;
+	margin-left: 100px;
 	padding: 10px;
-	width: 300px;
-	height: 300px; 
+	width: 400px;
+	height: 300px;
+    margin-top: 120px;
 	border: 1px solid gray;
 	background-color: red;
-	
 }
+
