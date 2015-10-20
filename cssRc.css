@@ -65,7 +65,7 @@ nav ul li a:hover{
 }
 nav ul li ul li {
 	display: none;
-	background-color: black;
+	background-color: #990000;
 }
 nav ul li:hover ul li{
 	display: block;
@@ -197,10 +197,10 @@ footer{
 	overflow: hidden;
 }
 footer p, footer h3 {
-	color:white;
+	color:#black;
 }
 footer p a{
-	color:white;
+	color:#black;
 	text-decoration: none;
 }
 
@@ -211,8 +211,4 @@ ul {
 }
 li{
   display: inline;
-}
-.copyright {
-    text-align: center; 
-
 }
