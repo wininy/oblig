@@ -197,10 +197,10 @@ footer{
 	overflow: hidden;
 }
 footer p, footer h3 {
-	color:#black;
+	color: white;
 }
 footer p a{
-	color:#black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -212,3 +212,9 @@ ul {
 li{
   display: inline;
 }
+
+.copyright {
+    text-align: center;
+    color: white;
+}
+
