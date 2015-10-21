@@ -249,3 +249,16 @@ li{
     color: white;
 }
 
+/* paragraf til om oss */
+
+.info{
+	width: 75%;
+	height: 200px;
+	color: white;
+	background-color: #003399;
+	padding: 5%;
+	
+}
+
+
+
