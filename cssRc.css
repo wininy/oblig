@@ -263,6 +263,7 @@ footer{
 	background: #003399;
 	width: 100%;
 	overflow: hidden;
+	border-radius: 4%;
 }
 footer p, footer h3 {
 	color: white;
@@ -302,6 +303,31 @@ a.fot{
 	font-size: 19px;
 	font-style: italic;
 }
+
+@media only screen and (max-width: 500px){
+	body{ 
+		line-height: 1;
+		margin: none; 
+	}
+	#navigation{
+	border-radius: 18%;
+	margin-left: 0;
+	width: 10%;
+	height: 3%;
+	}
+	
+	nav ul li a:hover{
+		background-color: green;
+		color: orange;
+	}
+	nav ul li:hover ul li{
+		background-color: green;
+		color: orange;
+	}
+		
+}
+
+
 
 
 
